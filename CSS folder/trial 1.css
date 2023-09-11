@@ -1,5 +1,5 @@
 #hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.864), rgba(0, 0, 0, 0.5)),url(trial\ 1\ pic.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.864), rgba(0, 0, 0, 0.5)),url(Images folder/hero-img1.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
     position: relative;
 }
 #hero-img1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.718), rgba(0, 0, 0, 0)),url(hero-img2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.718), rgba(0, 0, 0, 0)),url(Images folder/hero-img2.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
     position: relative;
 }
 #hero-img2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.725), rgba(0, 0, 0, 0.134)),url(hero-img2.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.725), rgba(0, 0, 0, 0.134)),url(Images folder/hero-img2.webp);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
