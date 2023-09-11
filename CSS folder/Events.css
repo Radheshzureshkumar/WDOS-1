@@ -1,5 +1,5 @@
 #hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.864), rgba(0, 0, 0, 0.5)),url(../Images folder/weddings\ event.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.864), rgba(0, 0, 0, 0.5)),url("../Images folder/weddings\ event.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
     position: relative;
 }
 #hero-img1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.864), rgba(0, 0, 0, 0.5)),url(../Images folder/meeting\ 1.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.864), rgba(0, 0, 0, 0.5)),url("../Images folder/meeting\ 1.avif");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
