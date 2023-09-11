@@ -1,0 +1,537 @@
+#hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.864), rgba(0, 0, 0, 0.5)),url(trial\ 1\ pic.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#hero-img1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.718), rgba(0, 0, 0, 0)),url(hero-img2.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#hero-img2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.725), rgba(0, 0, 0, 0.134)),url(hero-img2.webp);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+h1{
+      text-align: center;
+      color: gold;
+      font-family: 'mediga','Times New Roman', Times, serif;
+      font-size: 100px;
+  }
+body background{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header,footer{
+    overflow: hidden;
+    background-color:rgba(192, 31, 31, 0.229);
+    padding: auto;
+    display: flex;
+
+}
+.topNav{
+    overflow: hidden;
+    background-color: rgba(192, 31, 31, 0.384);
+    margin-top: -20px;
+    position: sticky;
+    top: 0;
+    
+}
+
+.topNav a{
+    float: left;
+    color:rgb(83, 71, 1) ;
+    text-align: center;
+    padding: 30px 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.topNav a:hover{
+    background-color:rgba(192, 31, 31, 0.384) ;
+    color: gold;
+
+}
+.topNav a:active{
+    background-color:gold ;
+    color: black;
+}
+.topNav input[type=text]{
+    float: right;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+label{
+    font-family: 'mediga','Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.button{
+    border-radius: 10px;
+    padding: 20px;
+    display: inline;
+}
+.checkay{
+    color: black;
+    font-size: 20px;
+    background-color: rgba(192, 31, 31, 0.384) ;
+}
+.checkay a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    font-family: 'mediga','Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+    color:rgb(83, 71, 1);
+}
+#container-1{
+    display: flex;
+    align-items: center;
+    
+}
+.text-box{
+    border: 3px solid gold;
+    background-color: whitesmoke;
+    padding:40px;
+    border-radius:  10px; 
+    box-shadow: 10px 10px rgba(192, 31, 31, 0.384); 
+    width: 50%;
+
+  
+}
+.text-box p{
+    font-family: 'mediga','Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.img{
+    max-height: 100%;
+    max-width:100%;
+    border-radius: 5px;
+}
+h3,h4,h5{
+    font-family: 'mediga','Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+
+}
+#body{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container{
+    
+    padding: 20px;
+    border: 3px solid gold;
+    background-color: whitesmoke;
+    border-radius:  10px; 
+    max-width: 20%;
+    display: inline-block;
+    overflow: hidden;
+    margin: 15px;
+   
+
+}
+.container img{
+    max-width: 80%;
+    max-height:80%;
+ 
+}
+.container text{
+    font-family: 'mediga','Times New Roman', Times, serif;
+    color: brown;
+}
+.container li{
+    background-color: wheat;
+    font-family: 'mediga','Times New Roman', Times, serif;
+    color: brown;
+    font-size: 30px;
+
+}
+.box{
+    border: 3px solid gold;
+    background-color:  rgb(255, 246, 230);
+    padding:20px;
+    border-radius:  10px; 
+    box-shadow: 10px 10px rgba(192, 31, 31, 0.384); 
+    width: 40%;
+    overflow: hidden;
+    display: inline-block;
+    margin: 30px;
+  
+}
+.box img{
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 5px;
+
+}
+.box text{
+    text-align: center;
+    font-family: 'mediga','Times New Roman', Times, serif;
+    color: brown;
+}
+.box p{
+    font-family: 'mediga','Times New Roman', Times, serif;
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+    margin-top: -50px;
+}
+.box h6{
+    font-family: 'mediga','Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(83, 71, 1);
+
+}
+.container-2{
+    display: flex;
+    padding: 20px;
+   
+}
+.container-2-box{
+    border: 3px solid gold;
+    background-color: rgb(255, 246, 230);
+    box-shadow:  0px 2px 6px rgb(83, 71, 1);
+    border-radius:  10px; 
+    width: 25%;
+    padding: 30px;
+    display: inline;
+    margin:0 30px ;
+   
+
+}
+.container-2 img{
+    align-items: center;
+    width: 65%;
+    height: 50%;
+    border-radius: 5px;
+}
+.container-2 h6{
+    font-family: 'mediga','Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(83, 71, 1);
+}
+.container-2 p{
+    font-family: 'mediga','Times New Roman', Times, serif;
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+    margin-top: -50px;
+    
+}
+.backtotop{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    border-radius: 50%;
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: gold;
+    color: brown;
+    cursor: pointer;
+    border: none;
+    
+}
+.backtotop :hover{
+    background-color:rgba(192, 31, 31, 0.384) ;
+    transition: scale(1.5) ;
+}
+.footer{
+    background-color: rgba(192, 31, 31, 0.384) ;
+    color: rgb(83, 71, 1);
+    padding: 35px 0;
+    text-align: center;
+    font-size: 30px;
+}
+.footer-links{
+    margin-top: 25px;
+}
+.footer-links a{
+    color: rgb(83, 71, 1);
+    font-family: 'mediga';
+    margin: 0 10px;
+}
+.resbox{
+    border: 3px solid gold;
+    background-color: whitesmoke;
+    padding:20px;
+    border-radius:  10px; 
+    box-shadow: 10px 10px rgba(192, 31, 31, 0.384); 
+    width: 40%;
+    overflow: hidden;
+    display: inline-block;
+    margin: 30px;
+  
+}
+.resbox img{
+    max-width: 70%;
+    max-height: 70%;
+
+
+}
+.resdes{
+    border: 3px solid gold;
+    background-color: rgb(255, 246, 230);
+    padding:20px;
+    border-radius:  10px; 
+    box-shadow: 10px 10px rgba(192, 31, 31, 0.384); 
+    width: 40%;
+    overflow: hidden;
+    display: inline-block;
+    margin: 30px;  
+}
+.resdes img{
+    max-width: 70%;
+    max-height: 70%;
+}
+.resdes p{
+    font-family: 'mediga','Times New Roman', Times, serif;
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+    margin-top: -50px;
+}
+.resdes h6{
+    font-family: 'mediga','Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(83, 71, 1);
+
+}
+.resdes button{
+    padding: 20px;
+    display: inline-block;
+    border-radius:5px ;
+    color: brown;
+    background-color: rgba(192, 31, 31, 0.384) ;
+    font-family: 'mediga','Times New Roman', Times, serif;
+    font-size: 25px;
+} 
+.forms-box{
+    background-color: antiquewhite;
+    max-width: 80%;
+    box-shadow: #333333;
+    padding: 2rem;
+    border: 10px;
+    margin:60px ;
+    border-radius: 8px;
+
+}
+label{
+    color: brown;
+}
+.forms-info input[type="text"]{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.forms-info input[type="email"]{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.forms-info select{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.forms-grid{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(4,1fr);
+}
+table{
+    width: 100%;
+    background-color: rgb(255, 246, 230);
+    border-radius:  10px;
+    border-collapse: separate;
+
+    
+}
+th{
+    
+    font-family: 'mediga','Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+    border: 3px solid gold;
+    margin: 10px;
+    border-radius:  10px;
+
+}
+td{
+    font-family: 'mediga','Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+    border: 3px solid gold;
+    margin: 10px;
+}
+tfoot{
+    background-color: rgb(255, 246, 230) ;
+    text-align: center;
+    font-size: 40px;
+    border-radius:  10px;
+}
+.branch img{
+    width: 40%;
+    height:40%;
+}
+.event-box{
+    border: 3px solid gold;
+    background-color: rgb(255, 246, 230);
+    box-shadow:  0px 2px 6px rgb(83, 71, 1);
+    border-radius:  10px; 
+    width: 500px;
+    padding: 30px;
+    margin: 10px;
+    display: inline-block;
+    margin-left: 120px;
+
+}
+.event-box h6{
+    font-family: 'mediga','Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(83, 71, 1);
+
+}
+.event-box p{
+    font-family: 'mediga','Times New Roman', Times, serif;
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+    margin-top: -50px;
+}
+.event-box button{
+    padding: 15px;
+    background-color:  rgba(192, 31, 31, 0.384);
+    border: gold;
+    color: brown;
+    border-radius: 5px;
+    display: inline;
+    font-size: 15px;
+    text-decoration: none;
+}
+.event-box img{
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+.event-box a{
+    color: brown;
+    text-decoration:none ;
+}
+@media (max-width=800px){
+    #hero-img, #hero-img1, #hero-img2 {
+        /* Adjust styles for smaller screens */
+        background-size: contain;
+    }
+
+    h1 {
+        /* Adjust font size or other styles for smaller screens */
+        font-size: 36px;
+    }
+
+    .topNav {
+        /* Adjust styles for the navigation bar on smaller screens */
+        margin-top: 0;
+    }
+
+    .topNav a {
+        /* Adjust padding or font size for navigation links on smaller screens */
+        padding: 10px 20px;
+        font-size: 26px;
+    }
+
+    .topNav input[type=text] {
+        /* Adjust font size or margin for text input on smaller screens */
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    label {
+        /* Adjust font size or other styles for labels on smaller screens */
+        font-size: 24px;
+    }
+
+    .button, .checkay {
+        /* Adjust button and checkbox styles for smaller screens */
+        padding: 10px;
+    }
+
+    h2 {
+        /* Adjust font size or other styles for h2 elements on smaller screens */
+        font-size: 24px;
+    }
+
+    #container-1 .text-box {
+        /* Adjust styles for the container and text box on smaller screens */
+        width: 100%;
+    }
+    th, td {
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    th {
+        font-size: 30px;
+    }
+
+    td {
+        font-size: 20px;
+    }
+
+    tfoot {
+        font-size: 30px;
+    }
+    .container {
+        max-width: 100%; /* Expand to full width on smaller screens */
+    }
+
+    .container img {
+        max-width: 100%; /* Adjust image width for smaller screens */
+        height: auto; /* Ensure the aspect ratio is maintained */
+    }
+
+    .container .text {
+        font-size: 20px; /* Adjust text size for better readability */
+    }
+
+    .container li {
+        font-size: 20px; /* Adjust list item text size */
+    }
+}
+
+
+
+
+
+
+
+
